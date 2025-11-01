@@ -47,6 +47,7 @@ def format_activity_type(activity_type, activity_name=""):
         "Indoor Cardio": "Cardio",
         "Indoor Cycling": "Cycling",
         "Indoor Rowing": "Rowing",
+        "Lap Swimming": "Swimming",
         "Speed Walking": "Walking",
         "Strength Training": "Strength",
         "Treadmill Running": "Running"
