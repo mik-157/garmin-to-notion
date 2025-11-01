@@ -17,7 +17,6 @@ ACTIVITY_ICONS = {
     "Indoor Cardio": "https://img.icons8.com/?size=100&id=62779&format=png&color=000000",
     "Indoor Cycling": "https://img.icons8.com/?size=100&id=47443&format=png&color=000000",
     "Indoor Rowing": "https://img.icons8.com/?size=100&id=71098&format=png&color=000000",
-    "Lap Swimming": "https://img.icons8.com/?size=100&id=9777&format=png&color=000000",
     "Pilates": "https://img.icons8.com/?size=100&id=9774&format=png&color=000000",
     "Meditation": "https://img.icons8.com/?size=100&id=9798&format=png&color=000000",
     "Rowing": "https://img.icons8.com/?size=100&id=71491&format=png&color=000000",
