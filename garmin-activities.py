@@ -101,16 +101,10 @@ def format_training_effect(trainingEffect_label):
 
 def format_pace(average_speed):
     if average_speed > 0:
-        if activity_type == "Swimming":
-            pace_min_km = 100 / (average_speed * 60)  # Convert to min/100m
-            minutes = int(pace_min_km)
-            seconds = int((pace_min_km - minutes) * 60)
-            return f"{minutes}:{seconds:02d} min/100m"
-        else:
-            pace_min_km = 1000 / (average_speed * 60)  # Convert to min/km
-            minutes = int(pace_min_km)
-            seconds = int((pace_min_km - minutes) * 60)
-            return f"{minutes}:{seconds:02d} min/km"
+        pace_min_km = 1000 / (average_speed * 60)  # Convert to min/km
+        minutes = int(pace_min_km)            
+        seconds = int((pace_min_km - minutes) * 60)
+        return f"{minutes}:{seconds:02d} min/km"
     else:
         return ""
     
